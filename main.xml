@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html dir='ltr' lang='en' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+   <head>
+      <meta content='width=device-width, initial-scale=1' name='viewport'/>
+      <title>SRMIST Arena</title>
+      <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+      <meta content='#ffffff' name='theme-color'/>
+      <meta content='#ffffff' name='msapplication-navbutton-color'/>
+      <meta content='blogger' name='generator'/>
+      <meta content='Search Course Group Chats for SRM Institute of Science and Technology' name='description'/>
+      <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css' rel='stylesheet'/>
+      <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/>
+      <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'/>
+      <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js'/>
+      <style>
+      .row.content {height: 620px}
+      .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+      }
+      footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+      }
+      @media screen and (max-width: 767px) {
+      .sidenav {
+      height: auto;
+      padding: 15px;
+      }
+      .row.content {height: auto;} 
+      }
+      </style>
+      <b:skin><![CDATA[
+      //nothing
+      ]]></b:skin>
+      </head>
+      <body>
+      <style>
+      .status-msg-wrap {
+      display: none !important;
+      }
+      .blog-pager-older-link {
+      display: none !important;
+      }
+      .home-link {
+      display: none !important;	
+      }
+      .feed-links {
+      display: none !important;
+      }
+      .post-title {
+      pointer-events: none;
+      }
+      </style>
+      <b:if cond='data:blog.canonicalUrl == data:blog.homepageUrl'>
+      <style>
+      .blog-posts.hfeed {
+      display: none !important;
+      }
+      </style>
+      </b:if>
+      <center><h1><a href="//srmistarena.blogspot.com" style="color: inherit;text-decoration: none">SRMIST Arena</a></h1></center>
+      <div class='container-fluid'>
+      <div class='row content'>
+      <div class='col-sm-3 sidenav'>
+      <div style="height:4px"><br /></div><h3>Main Menu</h3><br />
+      <ul class='nav nav-pills nav-stacked'>
+      <li class='active'><a expr:href='data:blog.homepageUrl'>Search Groups</a></li>
+      </ul>
+      </div>
+      <div class='col-sm-9'>
+      <h4><small>Open Source Portal of Telegram Groups for B Tech Computer Science Student of SRM Institute of Science and Technology</small></h4>
+      <hr/>
+      <div class="ruleGroups">
+      <h2>Rules:</h2>
+      <ul>
+      <li>Speak English only</li>
+      <li>Choose the Right Group</li>
+      <li>Do your homework yourself</li>
+      <li>Some groups are quiet, encourage people to participate</li>
+      <li>No sale of products allowed in the groups</li>
+      <li>No referral links, promotions and other spam messages</li>
+      <li>No slangs, hate speech or harassment</li>
+      <li>Do not share your personal details</li>
+      <li>Share helpful files and avoid sharing links</li>
+      </ul>
+      <hr />
+      </div>
+      <div class="searchGroups">
+      <h2>Join Group:</h2>
+      <form action="https://srmistarena.blogspot.com/search" target="_top">
+      <p class="input-group-text" id="">By joining any group you agree to follow above mentioned rules</p>
+      <input name="q" width="100%" type="text" class="form-control"  autocomplete="off" placeholder="Example: 18CSC202J, Compiler Design, etc"/>
+      <div style="height:4px"><br /></div>
+      <button class="btn btn-outline-secondary" type="submit">Search</button>
+      </form>
+      <hr />
+      </div>
+      <b:section class='main' id='main' showaddelement='yes'>
+      <b:widget id='Blog1' locked='false' title='Blog Posts' type='Blog' version='1'/>
+      </b:section>
+      </div>
+      </div>
+      </div>
+      <footer class='container-fluid'>
+      <b:section class='footer' id='footer'/>
+      <center>
+      <div class='widget-content'>Copyright &#169; 2020 SRMIST Arena | ALL RIGHTS RESERVED</div>
+      <p>Just Another <a href="//snhrepublic.com">SNH Republic</a> Project</p>
+      </center>
+      </footer>  
+      </body>
+      </html>
